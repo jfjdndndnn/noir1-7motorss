@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(59, 58, 58);
+                color: aliceblue;
+                margin:  50px auto;
+                width: 300px;
+                background-image: url(imbg18) ;
+                background-image: url(bg\ img.jpg);
+            }
+            form{
+                background-image: url(https://images.irantarh.com/pr:sharp/rs:fit:0:0:0/plain/s3:/uploads/designs/vector-images22/2705.jpg) ;
+                border: 4px solid gold ;
+                border-radius: 10px;
+                padding: 100px;
+                width: 200px;
+                
+            }
+            span{ color: red;}
+            input {
+                color: aliceblue;
+                background-color: rgb(61, 53, 53);
+                border: 2px solid gold;
+                border-radius: 10px;
+            }
+            textarea{
+                color: aliceblue;
+                background-color: rgb(61, 53, 53);
+                border: 2px solid gold;
+                border-radius: 10px;
+            }
+            select{
+                color: aliceblue;
+                background-color: rgb(61, 53, 53);
+                border: 2px solid gold;
+                border-radius: 10px;
+            }
+            button{
+                color: aliceblue;
+                background-color: rgb(61, 53, 53);
+                border: 2px solid gold;
+                border-radius: 10px;
+                padding: 5px;
+                width: 200px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <main>
+            <form>
+             <!-- اسم کاربر -->
+              <label for="name">name</label>
+              <input type="text" name="name" id="name" placeholder="name">
+              <span>error</span>
+              <br><br>
+             <!-- شماره تماس -->
+             <label for="num">number</label>
+             <input type="text" id="num" placeholder="enter your number">
+             <span>error</span>
+             <br><br>
+             <!-- کد ملی -->
+              <label for="cod">I D</label>
+              <br>
+              <input type="text" id="cod" placeholder="enter your national ID number">
+              <span>error</span>
+              <br><br>
+             <!-- نوع ماشین -->
+            <label for="text" id="model">car type</label>
+             <select name="car type" id="model">
+              <option value="1">sedan</option>
+              <option value="2">station</option>
+              <option value="3">SUV</option>
+              <span>error</span>
+            </select>
+            <br><br>
+             <!-- انتقاد -->
+              <label for="text" id="fs">feedback & suggestions</label>
+             <textarea name="fs" id="fs"></textarea>
+             <span>error</span>
+             <br><br>
+             <!-- دکمه -->
+             <button>submit</button>
+             </form>
+        </main>
+    </body>
+</html>
